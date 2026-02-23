@@ -10,7 +10,7 @@ st.caption("Critical Mention style • GDELT + Groq Llama • 100% Free on Cloud
 
 # Sidebar
 st.sidebar.header("Settings")
-keywords = st.sidebar.text_input("Keywords / Brand", "Apple OR iPhone OR Tim Cook")
+keywords = st.sidebar.text_input("Keywords / Brand", "Tinker Air Force Base OR Hill Air Force Base OR Warner Robins Air Force Base")
 days_back = st.sidebar.slider("Look back (days)", 1, 30, 7)
 min_relevance = st.sidebar.slider("Minimum relevance score", 1, 10, 6)
 model_choice = st.sidebar.selectbox("Groq Model", ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"])
